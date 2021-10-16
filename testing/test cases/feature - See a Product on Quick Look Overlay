@@ -1,0 +1,20 @@
+# Here is examples of full test cases with Name, description, steps to reproduce, Expected and Actual results, Priority
+
+    1.Verify there are Search field with text “What are you looking for?” on the top of the all pages
+        Steps to reproduce:
+           - Open any page
+           - Click on the Search field
+        Expected result: Search field with text “What are you looking for?” are displays
+        Actual result: Search field with text “What are you looking for?” are displays
+        Priority: Critical
+
+    # And so on with the another ones
+
+    2.Search by product/category
+    3.Verify search with filters
+    4.Find product using search field and verify quantity of found items
+    5.Find product using search field and ensure that "Result page" are displays
+    7.Find product using search field and click Quick look link, verify results
+    8.Find product using search field and click Quick look link, close it by "X" button
+    9.Find product using search field and click Quick look link, verify description
+    10.Find product using search field and click Quick look link, add to cart from here and verify cart

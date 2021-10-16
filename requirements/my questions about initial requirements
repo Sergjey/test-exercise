@@ -1,0 +1,124 @@
+Here is my questions about this features from "/requirements/initial requirements/"
+
+==========================================================================================================
+1) Add a product to cart
+As a customer
+I want to go to a product page and add the product to the cart
+I should be able to see this product added to cart on shopping cart page
+
+*****************************************************************************
+- "As a customer"
+*****************************************************************************
+
+  1.How will the process be built if the user is not registered?
+    Will the functionality be available, like a registered user or not?
+    If Yes:
+          - The registration offer will be at the very end when paying
+          - After choosing the goods, in the basket before paying, you can carry out a quick registration using the phone number
+          - No registration required
+    If Not:
+          - Instead of a "Add to cart” button, another button will be displayed - "Register"
+
+*****************************************************************************
+- "I want to go to a product page and add the product to the cart"
+*****************************************************************************
+
+  1.How do I go to the product page tab?
+    - Separate tab?
+    - Flyout menu?
+    - Pop-up?
+
+  2.Is the tab visible to all or only registered users?
+    If Not:
+          - Not fully visible?
+          - Visible, but there is no way to buy
+
+  3.How will the button be implemented?
+    - Will there be a button under/on each product?
+    - Or will appear when you hover over the product?
+
+  4.Will there be a button that changes the quantity of a product? ( for example: "+", "-" )
+
+  5.Will it be possible to select many products at once using check-boxes, and then press the "Add to cart” button once
+
+  6.How should be implemented the "Delete" button if I have already chosen a product?
+    - At the count field?
+    - Between "+" and "-" buttons?
+    - Single button "Delete", which becomes active if you select a product?
+
+  7. What happens when you add a product to cart?
+    - A pop-up message appears that the item has been added and you can go to the cart?
+    - Or is it just changing the value in the field with the quantity of goods?
+    - Or does the value change with the number of items in the active cart icon at the top of the screen?
+    - Is it requires to change the color of the product or buttons?
+
+*****************************************************************************
+- "I should be able to see this product added to cart on shopping cart page"
+*****************************************************************************
+
+  1.How can I go to shopping cart page?
+    - "Checkout" button when added a product to a cart?
+    - "Cart" icon-button at the top of the page? ( Can I see it when I scroll? )
+    - Separate tab?
+    - I see it from any page?
+
+  2.Are the products visible as a list with names? Or in the form of pictures? Or both types?
+
+  3.Will there be a button that changes the quantity of a product? ( for example: "+", "-" )
+
+  4.Will there be a button to remove one product? Multiple with check-boxes? Remove all?
+
+  5.Will there be a restore button, if user click "Clear cart"?
+
+==========================================================================================================
+2) See a Product on Quick Look Overlay
+As a customer
+I want to search for a product and open it's quick look overlay
+I should be able to see the exact same clicked product on the quick look overlay
+
+****************************************************************************
+- "As a customer"
+*****************************************************************************
+
+  1.Will the functionality be available, like a registered user or not?
+
+****************************************************************************
+- "I want to search for a product and open it's quick look overlay"
+*****************************************************************************
+
+  1.Search field should be on the top of the product page?
+    - Or not only product page ( every page )?
+
+  2.Searching only by product or by category?
+
+  3.Filters are requires?
+
+  4.Will the number of items found be displayed?
+
+  5.Should be the Search field on the "Results page"?
+    - Will there be a "Add to cart" button?
+      If Yes:
+             - At every product like on product page?
+      If Not:
+             - Are there require quick look overlay?
+
+  6.Do we need a Quick look link or probably be better click on the product, or "Add to cart" button at the product, or using hover?
+
+  7.How to quit from quick look overlay? Hover or click "Close button" or "X" button
+
+  8.Can we buy in quick look overlay?
+
+****************************************************************************
+- "I should be able to see the exact same clicked product on the quick look overlay"
+*****************************************************************************
+
+  1.What should be at the quick look overlay?
+    - description
+    - price
+    - name
+    - image
+    - reviews
+    - add to cart
+    - count
+    - parameters
+    - "View full product details" button

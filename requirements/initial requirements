@@ -1,0 +1,51 @@
+The exercise consists of writing out a strategic QA approach for an ecommerce website. There
+are two main features below with some stories/requirements. Your job is to identify any
+questions you may have for the Product Owner about the requirements, and to write out test
+cases for verifying the functionality as written, then describe your approach to executing the
+actual testing.
+
+Feel free to write about any additional concerns you might bring up to the product team about
+testing the website and/or any defects you observe. (Note – This is a live website used by a
+company, so defects are not guaranteed)
+
+
+1) Add a product to cart
+Story Phase
+As a customer
+I want to go to a product page and add the product to the cart
+I should be able to see this product added to cart on shopping cart page
+Acceptance Criteria
+● Product page shows "Add to cart” button
+● When click on "Add to cart” button, add to cart overlay appears
+● Checkout button is on the add to cart overlay
+● When click on "Checkout" button then shopping cart page is shown ● The product
+you added to cart should be on shopping cart page
+Technical Details
+Path to product page and shopping cart page
+● Using the flyout menu (menu that appears when you hover a category, e.g.:
+("COOKS’ TOOL"). For that, click on a subcategory (e.g.: "Salt & Pepper Mills") on
+the menu and choose any product (e.g: “Trudeau Graviti Electric Salt & Pepper Mill
+Set, Gunmetal”)
+● Add the product to cart from product page
+● Go to shopping cart page by starting checkout
+
+
+2) See a Product on Quick Look Overlay
+Story Phase
+As a customer
+I want to search for a product and open it's quick look overlay
+I should be able to see the exact same clicked product on the quick look overlay
+Acceptance Criteria
+● Search field takes to the results page
+● Below the product's image display the quick look link
+● Click the quick look link show the product overlay
+● The product clicked should have the same name and price as the product in the
+overlay
+Technical Details
+Path to Quick Look:
+● Using the Search input on the top area with text “What are you looking for?”,
+search for a product (e.g:'fry pan')
+● Below the product's image to see the quick look link and click on it
+Where to send:
+Feel free to package the information in whatever common format that works best for you. If
+you have multiple files, please put them into a folder and zip it before returning.

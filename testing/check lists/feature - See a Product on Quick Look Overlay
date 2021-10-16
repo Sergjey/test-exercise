@@ -1,0 +1,9 @@
+    1.Verify there are Search field with text “What are you looking for?” on the top of the all pages
+    2.Search by product/category
+    3.Verify search with filters
+    4.Find product using search field and verify quantity of found items
+    5.Find product using search field and ensure that "Result page" are displays
+    7.Find product using search field and click Quick look link, verify results
+    8.Find product using search field and click Quick look link, close it by "X" button
+    9.Find product using search field and click Quick look link, verify description
+    10.Find product using search field and click Quick look link, add to cart from here and verify cart

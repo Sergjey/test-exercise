@@ -1,0 +1,48 @@
+# Here is examples of full test cases with Name, description, steps to reproduce, Expected and Actual results, Priority
+
+    1.Verify there are "Add to cart" button
+        Steps to reproduce:
+          - Open product page
+          - There are "Add to cart" button
+        Expected result: "Add to cart" button are displays
+        Actual result: "Add to cart" button aren't displays
+        Priority: Critical
+
+    2.Verify there are "Cart" ("Checkout") button
+        Steps to reproduce:
+           - Open product page
+           - There are "Cart" ("Checkout") button
+        Expected result: "Cart" ("Checkout") button are displays
+        Actual result: "Cart" ("Checkout") button aren't displays
+        Priority: Critical
+
+    3.Add one(5,100) item to the cart and verify as a registered user ( and non registered user )
+        Steps to reproduce:
+            - Open product page as a registered user ( and non registered user )
+            - Add one(5,100) item to the cart ( Click "Add to cart" button )
+        Expected result: Product has choosen quantity
+        Actual result: Product has choosen quantity
+        Priority: Critical
+
+    # And so on with the another ones
+
+    4.Increase(decrease) the quantity of the item from the cart and verify.
+    5.Add the same item multiple times and verify.
+    6.Add multiple items of different types and verify.
+    7.Increase the quantity of the item and delete this item from cart, from product page
+    8.Remove some items from the cart and verify.
+    9.Remove all items from the cart and then verify.
+    10.Register from cart page
+    11.Add one item to the cart, register from cart page and verify your item in cart
+    12.Add a few products to cart by using check-boxes
+    13.Are there items and quantity the same in the cart after Refresh browser? ( After rerun browser? )
+    14.Click "Add to cart" and verify color changes
+    15.Go to shopping cart page by using "Checkout" button
+    16.Go to shopping cart page by using icon on the top of the page from different pages
+    17.Add product to cart and verify name, price, and all description of the added item
+    18.Verify "Restore" button
+    19.Click on an item in the cart and verify that the user is redirected to the product detail page
+    20.Verify the product QTY field when the product is out of stock
+    21.Ensure that Name, Street Address, City, State, Country, Postal code is the mandatory field in the Checkout Address page (Shipping Address).
+    22.Ensure that error message is displayed when the user enters invalid input in all the mandatory field in the checkout address page.
+    23.Place an order by clicking on the Submit Button

@@ -1,0 +1,12 @@
+*.png
+*.xml
+*.iml
+.idea
+.idea/
+*.byebug_history
+*.log
+*.txt
+*.html
+*.bat
+*.BAT
+reports
